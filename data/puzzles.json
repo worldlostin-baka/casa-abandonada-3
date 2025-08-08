@@ -1,0 +1,52 @@
+[
+  {
+    "id": "livros_proibidos",
+    "name": "O Enigma dos Livros Proibidos",
+    "description": "Na biblioteca, três livros estão em destaque: 'O Livro dos Mortos', 'Rituais Antigos' e 'Histórias de Terror'. Você deve descobrir a ordem correta para abrir a passagem secreta.",
+    "solution": ["O Livro dos Mortos", "Rituais Antigos", "Histórias de Terror"],
+    "hint": "O primeiro livro é aquele que fala sobre os que já partiram.",
+    "reward_item": "chave_secreta",
+    "reward_effect": "unlock_secret_room",
+    "unlocks": "sala_secreta"
+  },
+  {
+    "id": "diario_enigmático",
+    "name": "O Código do Diário",
+    "description": "O diário do antigo proprietário está trancado. Para abri-lo, você deve decifrar a combinação: 'A soma dos números das páginas 3, 5 e 7'.",
+    "solution": "15",
+    "hint": "As páginas estão manchadas, mas os números ainda são legíveis.",
+    "reward_item": "relicário_antigo",
+    "reward_effect": "reveal_secret",
+    "unlocks": "sala_oculta"
+  },
+  {
+    "id": "puzzle_do_portal",
+    "name": "O Portal do Medo",
+    "description": "Um portal antigo está coberto de símbolos. Para ativá-lo, você deve pressionar os símbolos na ordem correta: 'Coração', 'Olho', 'Cruz'.",
+    "solution": ["Coração", "Olho", "Cruz"],
+    "hint": "Os símbolos representam os medos mais profundos da humanidade.",
+    "reward_item": "amuletos_protetores",
+    "reward_effect": "reduce_fear",
+    "unlocks": "portal_secreto"
+  },
+  {
+    "id": "caixa_misteriosa",
+    "name": "A Caixa Misteriosa",
+    "description": "Uma caixa antiga está trancada. Para abri-la, você deve resolver o enigma: 'O que é mais leve que uma pena, mas mesmo o homem mais forte não pode segurar por muito tempo?'",
+    "solution": "respiração",
+    "hint": "Pense em algo que todos nós fazemos, mas não podemos controlar.",
+    "reward_item": "fragmento_de_artefato",
+    "reward_effect": "unlock_new_area",
+    "unlocks": "sala_do_artefato"
+  },
+  {
+    "id": "sussurros_do_passado",
+    "name": "Os Sussurros do Passado",
+    "description": "Você encontra uma tapeçaria antiga que sussurra segredos. Para descobrir o que ela esconde, você deve alinhar as palavras: 'Medo', 'Sangue', 'Vingança'.",
+    "solution": ["Medo", "Sangue", "Vingança"],
+    "hint": "As palavras estão entrelaçadas na tapeçaria.",
+    "reward_item": "mapa_antigo",
+    "reward_effect": "reveal_map",
+    "unlocks": "mapa_secreto"
+  }
+]

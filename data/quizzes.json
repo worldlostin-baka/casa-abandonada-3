@@ -1,0 +1,36 @@
+[
+  {
+    "id": "espelho_misterioso",
+    "question": "O espelho embaçado mostra uma mensagem: 'O que os mortos mais temem?'",
+    "options": [
+      "Luz",
+      "Sangue",
+      "Espelhos",
+      "Silêncio"
+    ],
+    "correct": 0,
+    "reward_item": "sinalizador",
+    "reward_effect": "reduce_fear",
+    "penalty": {
+      "fear": 30,
+      "sanity": 10
+    }
+  },
+  {
+    "id": "vozes_porao",
+    "question": "Vozes sussurram: 'Quantas crianças desapareceram aqui?'",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "9"
+    ],
+    "correct": 2,
+    "reward_item": "amuleto_protecao",
+    "reward_effect": "reduce_fear",
+    "penalty": {
+      "fear": 40,
+      "health": 15
+    }
+  }
+]

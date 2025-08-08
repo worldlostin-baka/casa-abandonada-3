@@ -1,0 +1,8 @@
+olhar
+pegar lanterna
+mover norte
+olhar
+mover sul
+inventario
+sair
+

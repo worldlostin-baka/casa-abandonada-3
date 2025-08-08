@@ -1,0 +1,14 @@
+olhar
+pegar lanterna
+inventario
+mover norte
+olhar
+mover sul
+mover leste
+olhar
+pegar faca
+inventario
+mover oeste
+olhar
+sair
+

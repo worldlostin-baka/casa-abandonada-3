@@ -1,0 +1,15 @@
+{
+    "color_settings": {
+        "text_colors": {
+            "default": "white",
+            "important": "lightred",
+            "items": "lightblue",
+            "locations": "lightmagenta"
+        },
+        "background_colors": {
+            "dark_areas": "black",
+            "blood": "lightyellow",
+            "fire": "red"
+        }
+    }
+}

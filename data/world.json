@@ -1,0 +1,27 @@
+{
+  "hall_entrada": {
+    "name": "Hall de Entrada",
+    "description": "Você está no hall de entrada de uma velha mansão. O ar é pesado e um relógio parado tique-taque sem som.",
+    "items": ["chave_enferrujada"],
+    "connections": {
+      "norte": "sala_estar"
+    }
+  },
+  "sala_estar": {
+    "name": "Sala de Estar",
+    "description": "Uma sala de estar empoeirada. Uma lareira apagada ocupa uma parede e sofás cobertos por lençóis brancos estão espalhados.",
+    "items": ["pó_estranho"],
+    "connections": {
+      "sul": "hall_entrada",
+      "leste": "biblioteca"
+    }
+  },
+  "biblioteca": {
+    "name": "Biblioteca",
+    "description": "Uma biblioteca com estantes do chão ao teto, cheias de livros antigos. O cheiro de papel velho paira no ar.",
+    "items": ["livro_antigo"],
+    "connections": {
+      "oeste": "sala_estar"
+    }
+  }
+}
